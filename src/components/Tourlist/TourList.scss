@@ -1,0 +1,16 @@
+@import "../../index.scss";
+
+.tourlist {
+  width: 70vh;
+  margin: 0 auto;
+  padding: 2rem 0;
+  display: grid;
+}
+
+@media screen and (min-width: 768px) {
+  .tourlist {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1.5rem;
+  }
+}
